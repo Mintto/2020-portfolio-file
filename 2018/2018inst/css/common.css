@@ -1,0 +1,47 @@
+/* setting*/
+*{margin:0; padding:0; box-sizing: border-box; user-select:none}
+ul li{list-style: none;}
+a{text-decoration: none;}
+html body{width: 100%; }
+
+.wrap{width: 100%; ;margin:0 auto;}
+.container{width: 900px; margin:0 auto;}
+
+.header{width: 100%; height: 80px; border-bottom: 1px solid #e7e2e2;  float:left; background: white; z-index: 5; position: fixed;}
+/* logo*/
+.logo_box{display: flex; float:left; align-items: center; width:170px; height: 80px;}
+.logo_box>ul{width: 170px; height: 35px; float:left; display: flex;}
+.logo_box>ul>li:nth-child(1){width: 50px; height: 35px; border-right: 1px solid black;}
+.logo_box>ul>li:nth-child(2){width: 120px ; height: 35px;}
+.logo_box>ul>li:nth-child(1)>a>img{width: 35px ; height: 35px;}
+.logo_box>ul>li:nth-child(2)>a>img{width: 105px ; height: 35px; margin-left:15px;}
+
+.section{width: 900px; height: auto; margin:0 auto; position: relative;}
+.clear_box{width: 100%; height: 80px;  float:left;}
+.main_nav{position: absolute; right: 0; width: 270px; height: 500px;}
+.nav_box{width: 270px; height:500px; border: 1px solid black; position:fixed; top:159px;}
+.nav_box>p{width: 270px; height: 30px; line-height: 30px; text-align: center; margin-top:5%;}
+/* box */
+.scroll_box{width: 610px; height: 720px; float:left; border: 1px solid #e7e2e2; margin-top:79px;}
+.scroll_title{width: 90%; height: 50px; float:left; line-height: 60px; margin:0 5%;}
+.scroll_title>span{margin-left:10px;}
+.scroll_slide{width: 100%; height: 610px; float:left; overflow:hidden; position: relative;}
+.scroll_slide>ul{width: 400%; height: 610px; float:left; display: flex;}
+.scroll_slide>ul>li{width: 25%; height: 610px;  position: relative;}
+.scroll_slide>ul>li:nth-child(1){background: red;}
+.scroll_slide>ul>li:nth-child(2){background: orange;}
+.scroll_slide>ul>li:nth-child(3){background: yellow;}
+.scroll_slide>ul>li:nth-child(4){background: green;}
+/* arrow */
+.arrow{width: 30px; height: 30px; line-height: 30px; border-radius:30px;text-align: center; position: absolute; top:calc(50% - 25px); color:black; cursor: pointer;}
+.arrow:hover{ border: 1px solid black;}
+.left{left: 5px; display: none;}
+.right{right: 5px;}
+/* like */
+.scroll_like{width: 100%; height: 60px; float:left; padding: 20px; }
+.scroll_like>img{float:left; width: 25px; height: 20px; }
+.like_on{background: red;}
+/* bullet */
+.bullet{width: 48px; height: 20px; display: block; margin:0 auto; }
+.bullet>li{width: 6px; height: 6px; border-radius: 15px;background: darkgray; margin: 7px 3px; float:left;}
+.bullet>li.active{background: black; opacity: 1; transition: 0.5s;}

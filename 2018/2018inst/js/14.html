@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0; padding:0;}
+        ul li{list-style: none;}
+        a{text-decoration:none;}
+
+        .wrap{width: 100%;}
+        .header{width:100%; height: 100px; display: flex; justify-content: center;}
+        .gnb{width: 450px; height: 100px; text-align: center; display: flex;}
+        .gnb li{width: 150px;}
+        .gnb>li{height: 100px; background: lightcoral;}
+        .gnb a{line-height: 100px; color:black;}
+
+        .sub_menu>li{ background: lightsalmon; overflow: hidden; height: 0; transition:0.5s;}
+
+        .gnb>li:hover>ul>li{height: 100px; transition:1s;}
+
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <ul class="gnb">
+            <li><a href="#">메인1</a>
+                <ul class="sub_menu">
+                    <li><a href="#">서브1</a></li>
+                    <li><a href="#">서브2</a></li>
+                    <li><a href="#">서브3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">메인2</a>
+                  <ul class="sub_menu">
+                      <li><a href="#">서브1</a></li>
+                      <li><a href="#">서브2</a></li>
+                      <li><a href="#">서브3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">메인3</a>
+                  <ul class="sub_menu">
+                      <li><a href="#">서브1</a></li>
+                      <li><a href="#">서브2</a></li>
+                      <li><a href="#">서브3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* settings */
+*{ margin:0; padding:0; list-style: none; text-decoration: none; outline-style: none; box-sizing: border-box; user-select: none;}
+input{ border:0; background: none; }
+html,body{ width: 100%; height: 100%; background:#f5f5f5; }
+/* layout */
+header { width: 100%; text-align: center;  }
+section.box{ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);  position: relative; margin:130px auto 40px auto; width: 550px; height: auto; }
+section.content { text-align: center; }
+footer.box_footer{ width: 100%; height: 40px; background:#fff; border-top:1px solid lightgray; text-align: center ; line-height: 40px; padding:0 15px; display: none;}
+footer.footer{ width: 100%; height: 100px; line-height: 100px; text-align: center; font-size:18px; color:lightgray;   position: relative;}
+
+
+/* header */
+header h1{ color:rgba(175, 47, 47, 0.15); font-size:100px; font-weight: 100%;  position: absolute; left:0; top:-130px; width: 100%;}
+header .search { position: relative; width: 550px; height: 65px; display: inline-block;}
+header .search div{ position: absolute; left:0; top:0; width: 50px; height: 65px; text-align: center; line-height: 65px; display: none;}
+header .search span{ transform: rotate(90deg); font-size: 22px; color:#e6e6e6; display: inline-block; pointer-events: none;}
+
+
+header input{ width: 100%; height: 100%;  background:#fff; padding:16px 16px 16px 60px; font-size: 24px; color:#4d4d4d; border:0; box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);}
+header input::placeholder{ color:lightgray; }
+
+
+/* section */ 
+.list_btn>* { pointer-events: none; }
+section.content .list li { width: 550px; height: auto; background:#fff;  position: relative; min-height: 58px;}
+section.content .list li :not(:last-child){ border:1px solid #ededed; }
+section.content .list li input{ width: 40px; height: 40px;  border-radius: 50%; display: none;}
+section.content .list li label{ width: 40px; height: 40px; background:#fff; display: inline-block; position: absolute; top:0; bottom:0; margin:auto 0; left:10px; border-radius: 50%; border:1px solid lightgray; text-align: center;}
+section.content .list li label span{ transform: rotate(90deg); display: none; text-align: center; color:red; font-size:25px; margin-left:2px; pointer-events: none;}
+section.content .list li input:checked + label span{ display: inline-block; user-select: none;}
+section.content .list li button {position: absolute; top:0; right: 10px; bottom:0; margin:auto 0; font-size:30px; color:#cc9a9a; border:0; background:none;  opacity: 0;}
+section.content .list li:hover button { opacity: 1; }
+section.content .list li span{ word-break: break-all; font-size: 24px; text-align: left; display: inline-block; width: 100%; height: 100%; color:#4d4d4d; }
+section.content .list li>span{ padding:15px 15px 15px 60px;}
+
+section.content .list .ba{ display: block; position: absolute; z-index: 100; left:0; top:0; font-size:24px; color:#4d4d4d; padding:15px 15px 15px 60px; width: 100%; height: 100%; word-break: break-all; background:#fff; border:1px solid black; border-radius: 0;}
+/* footer */
+footer.box_footer .item{ float:left; position: relative; z-index: 100;}
+footer.box_footer .filter{  position: absolute; left:0; right: 0; z-index: 0;}
+footer.box_footer .filter>li{  padding:3px 7px;  color:#777; font-size:14px; display: inline;}
+footer.box_footer span{  color:#777; font-size:14px;}
+footer.box_footer .clear{  float:right; position: relative; z-index: 100;}
+footer.box_footer .clear>span{ pointer-events: none; }

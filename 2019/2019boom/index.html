@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>지뢰찾기</title>
+	<link rel="stylesheet" href="css/common.css">
+	<script src="js/common.js"></script>
+</head>
+<body>
+	<div id="pointer"></div>
+	<nav>
+		<div>
+			<input type="range" name="row" min="9" max="100" value="9" >
+			<div><span>가로</span><span title="row_title"></span></div>
+			<input type="range" name="column" min="9" max="100" value="9" >
+			<div><span>세로</span><span title="column_title"></span></div>
+			<input type="submit" id="nav_btn" value="Start">
+		</div>
+	</nav>
+	<canvas id="Mycanvas"  oncontextmenu="return false" ondragstart="return false" onselectstart="return false"></canvas>	
+</body>
+</html>

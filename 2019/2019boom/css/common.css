@@ -1,0 +1,35 @@
+/* settings */
+*{ margin:0; padding:0; list-style: none; text-decoration: none; box-sizing: border-box;  outline-style: none; -ms-overflow-style:none; }
+::-webkit-scrollbar{ display: none; }
+body{ background:#efefef; }
+input{ cursor: none; }
+
+
+/* pointer*/
+#pointer{ position: fixed; left:50%; top: 50%; z-index: 9999; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); background:rgba(0,0,0,0.5); width: 30px; height: 30px; border-radius: 50%; pointer-events: none;  }
+
+/* canvas*/
+#Mycanvas{ position: absolute; left:50%; top:50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); opacity: 0; display: none; }
+
+/* nav */
+nav{ position: fixed; left:50%; top: 50%; z-index: 9100; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); opacity: 0; display: none;}
+nav>div{ display: flex; flex-direction: column;  }
+nav>div>input[type="range"]{ width: 200px; }
+nav>div>*:not(:first-child){ margin-top:25px; }
+nav>div>input[type="submit"]{ border:0; height: 20px; line-height: 20px; }
+
+/* animation */
+.pointerEnter{ animation: pointer_enter 0.5s both; }
+.pointerLeave{ animation: pointer_leave 0.5s both; }
+
+
+/* keyframse */
+@keyframes pointer_enter{
+	0%{ width: 30px; height: 30px;  }
+	100%{ width: 50px; height: 50px; }
+}
+
+@keyframes pointer_leave{
+	0%{ width: 50px; height: 50px;  }
+	100%{ width: 30px; height: 30px; }
+}

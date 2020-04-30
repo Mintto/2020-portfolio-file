@@ -1,0 +1,6 @@
+*{margin:0; padding:0;}
+body{ width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; background:gray;}
+
+.canvas_wrap{width: auto; height: 600px;}
+button{float:left;}
+canvas{ background:white; float:left;}

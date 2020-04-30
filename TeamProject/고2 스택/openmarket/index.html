@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>오픈마켓</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../introduce/css/common.css">
+	<script src="../js/jquery-1.12.3.js"></script>
+	<script src="js/index.js"></script>
+	<script src="../js/index.js"></script>
+	<script src="../introduce/js/common.js"></script>
+</head>
+<body>
+	<div id="templetStyle"></div>
+	<div id="input_box">
+		<input type="text" id="titleVal" placeholder="제목">
+		<select id="selVal">
+			<option value="[일반글] ">일반글</option>
+			<option value="[자랑] ">자랑</option>
+			<option value="[판매] ">판매</option>
+		</select>
+		<br>
+		<textarea type="text" id="textVal" placeholder="내용"></textarea>
+		<br>
+		<button onclick="popupStyle()" id="btn">입력하기</button>
+	</div>
+	<div class="menu_wrap"></div>
+	<div class="slide_menu">
+		<div>
+			<div class="close_menu"></div>
+		</div>
+		<div >
+			<img src="../img/menu1.jpg" alt="menu_img1">
+			<div></div>
+			<h3><a href="../index.html">HOME</a></h3>
+		</div>
+		<div>
+			<img src="../img/menu2.png" alt="menu_img2">
+			<div></div>
+			<h3><a href="../introduce/index.html">회사소개</a></h3>
+		</div>
+		<div>
+			<img src="../img/menu3.jpg" alt="menu_img3">
+			<div></div>
+			<h3><a href="../artist/index.html">아티스트</a></h3>
+		</div>
+		<div>
+			<img src="../img/menu4.jpg" alt="menu_img4">
+			<div></div>
+			<h3><a href="../marking/index.html">제작</a></h3>
+		</div>
+		<div>
+			<img src="../img/menu5.jpg" alt="menu_img5">
+			<div></div>
+			<h3><a href="index.html">오픈마켓</a></h3>
+		</div>
+		<div >
+			<img src="../img/menu6.jpeg" alt="menu_img6">
+			<div></div>
+			<h3><a href="#" class="popupBtn">마이페이지</a></h3>
+		</div>
+	</div>
+	<div id="wrap">
+		<header>
+			<div class="left">
+				<h1><a href="../index.html">shoestom</a></h1>
+				<div class="menu_slider">
+					<div></div>
+				</div>
+			</div>
+			<div class="main">
+				<h1><a href="../index.html">shoestom</a></h1>
+				<ul class="main_menu">
+					<li><a href="../introduce/index.html">회사소개</a></li>
+					<li ><a href="../artist/index.html">아티스트</a></li>
+					<li><a href="../marking/index.html">제작</a></li>
+					<li ><a href="index.html" >커뮤니티</a></li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<div class="banner position_center">
+				<h2>SHOESTOM</h2>
+				<p>커뮤니티</p>
+			</div>
+			<div class="bg"></div>
+		</main>
+		<div id="content">
+			<div id="search"></div>	
+			<div id="input_text" onclick="popupBlock()">글 쓰기</div>
+			<div id="shop_content">
+				<ul id="list">
+					<li>[공지] 제목- Shoestom 커뮤니티 안내사항</li>
+					<li>[공지] 제목- Shoestom 커뮤니티 개설</li>
+					<li>[판매] 제목- 겨울시즌 눈맞이 빙산 커스텀 신발 사이즈 250~270 내용- 아주 예뻐요</li>
+					<li>[자랑] 제목- 이 신발 만들었는데 어떰? 내용- 진짜 예쁘지 않음?</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

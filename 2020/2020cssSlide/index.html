@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<div id="pointer"></div>
+	<input type="radio" name="slide_btn" id="slide_btn1" checked>
+	<input type="radio" name="slide_btn" id="slide_btn2"> 
+	<input type="radio" name="slide_btn" id="slide_btn3">
+	<input type="radio" name="slide_btn" id="slide_btn4">
+	<div class="slide_wrap">
+		<div class="slide">
+			<div>
+				<div class="container">
+					<div class="bg1"></div>
+					<div class="bg2"></div>
+					<div class="bg3"></div>
+					<div class="bg4"></div>
+				</div>
+				<div class="banner">
+					<p>webkills 1</p>
+					<h1>Hello World 1 </h1>
+				</div>
+			</div>
+			<div>
+				<div class="container">
+					<div class="bg1"></div>
+					<div class="bg2"></div>
+					<div class="bg3"></div>
+					<div class="bg4"></div>
+				</div>
+				<div class="banner">
+					<p>webkills 2</p>
+					<h1>Hello World 2 </h1>
+				</div>
+			</div>
+			<div>
+				<div class="container">
+					<div class="bg1"></div>
+					<div class="bg2"></div>
+					<div class="bg3"></div>
+					<div class="bg4"></div>
+				</div>
+				<div class="banner">
+					<p>webkills 3</p>
+					<h1>Hello World 3 </h1>
+				</div>
+			</div>
+			<div>
+				<div class="container">
+					<div class="bg1"></div>
+					<div class="bg2"></div>
+					<div class="bg3"></div>
+					<div class="bg4"></div>
+				</div>
+				<div class="banner">
+					<p>webkills 4</p>
+					<h1>Hello World 4 </h1>
+				</div>
+			</div>
+		</div>
+		<div class="btn">
+			<label for="slide_btn1"></label>
+			<label for="slide_btn2"></label>
+			<label for="slide_btn3"></label>
+			<label for="slide_btn4"></label>
+		</div>
+	</div>
+	<script>
+		let point = document.getElementById("pointer");
+		document.addEventListener("mousemove",function(e){
+			point.style.left = e.clientX+"px";
+			point.style.top = e.clientY+"px";
+		})
+		document.addEventListener("mousedown",function(e){
+			point.style.width = 25+"px";
+			point.style.height = 25+"px";
+		})
+		document.addEventListener("mouseup",function(e){
+			point.style.width = 15+"px";
+			point.style.height = 15+"px";
+		})
+	</script>
+</body>
+</html>

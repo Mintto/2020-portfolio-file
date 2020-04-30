@@ -1,0 +1,43 @@
+*{margin:0  ; padding: 0; margin:0 auto;}
+ul,li{list-style:none;}
+a{text-decoration: none;}
+
+.wrap{width: 100%; }
+
+
+/*                                            header start                       */
+.header{width:1920px;height: 150px; position:relative; z-index: 100;}
+
+
+/*                header_head        */
+.header_head{height: 50px; background:  #2e77be;}
+
+
+/*       로그인         */
+.Login{display: flex; float: right; }
+.Login li{width: auto; line-height: 50px; margin-right:50px;}
+.Login a{color:white;}
+
+
+/*                header_body               */
+.header_body{height: 100px; background:  aliceblue;}
+.w69_5{width: 69%; height: 100px; margin:0 auto;}
+
+/*       로고        */
+.Logo{height: 100px; float:left;}
+.Logo img{margin-top:29px; }
+
+/*       메뉴        */
+.gnb{height: 100px; display: flex;}
+.gnb li{text-align: center;}
+.gnb>li{width: 20% ;height: 100px; line-height: 100px;  position:relative; left:80px;}
+.gnb>li>a{color: #61acb1; font-size:20px; font-weight: bold; }
+.gnb>li:hover>a{color:#569698; transition: 0.5s;}
+
+.gnb>li>ul>li{width: 95%; height: 50px; line-height:50px; background: white; opacity:0.7; margin-left:3%;}
+.gnb>li>ul>li>a{color:#2e77be;}
+.gnb>li>ul>li:hover{background: white; opacity:0.8; transition: 0.5s;}
+.gnb>li>ul>li:hover>a{color:#143251; transition: 0.5s;}
+
+.gnb>li>ul{display: none; left:0; right:0; position:absolute;}
+/*                                            header  last                       */

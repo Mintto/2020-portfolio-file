@@ -1,0 +1,39 @@
+/* settings */
+*{ margin:0; padding:0; list-style: none; text-decoration: none; box-sizing: border-box;}
+html,body{ width: 100%; height: auto; }
+
+/* subClass*/
+.w1200{ width: 1200px; height: 100%; margin:0 auto; }
+/* layout */
+.wrap{ width: 100%;   }
+/*header{ width: 100%; height: 50px; background:#fff; box-shadow: 1px 1px 1px lightgray; }*/
+section{ width: 100%;  }
+
+
+
+/* section */
+section { padding-top:30px; }
+section .message { width: 250px; height: 1176px; margin:0 auto; background:rgba(235,236,240); display: flex; flex-direction: column; padding:8px 8px 0px; }
+section .message a{ user-select: none; width: 234px; height: auto;  padding:8px; display: flex; margin-bottom: 8px; background:#fff;  border:1px solid gray;}
+section .message a>img{ width: 40px; height: 40px; border-radius: 50%; margin-right: 10px; }
+section .message a>div{ flex:1; user-select: none; }
+
+
+section .message a>div .text_wrap{ font-size:12px; color:#2d2d2d; }
+section .message a>div .name { height: 30px; margin-top:8px; display: flex; justify-content: space-between; align-items: center;}
+
+section .message a>div .name span{ font-size:12px; color:gray; }
+
+section .message a>div .name span:nth-child(1){ padding:4px; }
+
+
+
+section .message a[data-name="BMO"]:active{ background:rgb(227, 252, 239); border:2px solid rgb(87, 217, 163);}
+section .message a[data-name="Jake"]:active{ background:rgb(255, 250, 230); border:2px solid rgb(255,196,0);}
+section .message a[data-name="Finn"]:active{ background:rgb(225, 235, 255); border:2px solid rgb(38,132,255);}
+section .message a[data-name="Princess"]:active{ background:rgb(234, 230, 255); border:2px solid rgb(135,119,217);}
+
+section .message a img[src="images/bmo.74f7d025.png"]+div .name span:nth-child(1){ background: rgb(227,252,239) }
+section .message a img[src="images/jake.6e3409f0.png"]+div .name span:nth-child(1){ background: rgb(255,250,230) }
+section .message a img[src="images/finn.965ed122.png"]+div .name span:nth-child(1){ background: rgb(222,235,255) }
+section .message a img[src="images/princess.337a4119.png"]+div .name span:nth-child(1){ background: rgb(234,230,255) }

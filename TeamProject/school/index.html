@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/Mod.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/js/jquery-1.12.3.js"></script>
+    <script type="text/javascript">
+        $(document)
+            .on("mouseenter mouseleave", ".gnb li", function () {
+                $(this).find("ul").stop().slideToggle(500)})
+
+                window.onload = function () {
+                    var target = $(".slide ul")
+                    var len = $(".slide li").length
+                    var pos = 0
+                    setInterval(function () {
+                        pos = (pos + 1) % len
+                        target.animate({
+                            marginLeft:-pos*100+"%"
+                        }, 1000)
+                    }, 3000)
+                }
+    </script>
+    <title>서울디지텍고등학교</title>
+</head>
+<body>
+<div class="wrap">
+
+    <header class="header">
+        <div class="header_head">
+            <ul class="Login">
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </div>
+
+        <div class="header_body">
+            <div class="w69_5">
+
+                <h3 class="Logo"><a href="index.html"><img src="img/Mod/Logo.png" alt="Logo"></a></h3>
+
+                <ul class="gnb">
+                    <li><a href="#">학교소개</a>
+                        <ul>
+                            <li><a href="#">교직원 소개</a></li>
+                            <li><a href="#">학교장 인사말</a></li>
+                            <li><a href="#">교훈/상징</a></li>
+                            <li><a href="#">학교 길 안내</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">알림마당</a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">카드 뉴스</a></li>
+                            <li><a href="#">일정 달력</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">입학안내</a>
+                        <ul>
+                            <li><a href="#">학과소개</a></li>
+                            <li><a href="#">입학안내</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">학생마당</a>
+                        <ul>
+                            <li><a href="#">동아리 및 방과후 활동</a></li>
+                            <li><a href="#">학생사진작품</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">열린마당</a>
+                        <ul>
+                            <li><a href="#">온라인북카페</a></li>
+                            <li><a href="#">자유게시판</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="slide">
+        <ul>
+            <li><img src="img/Mod/main_img1.jpg" alt="메인이미지1"></li>
+            <li><img src="img/Mod/main_img2.jpg" alt="메인이미지2"></li>
+            <li><img src="img/Mod/main_img3.JPG" alt="메인이미지3"></li>
+            <div class="welcome">
+                <p>welcome to <br>
+                    SDHS</p>
+            </div>
+        </ul>
+    </section>
+
+    <section class="contents">
+        <div class="w50_5">
+            <article class="notice">
+                <h3 class="notice_title">공지사항</h3>
+                <ul>
+                    <li><a href="#" class="notice_text">2018년 제7회 게임캐릭터디자인공모전 수상자 발표</a>  <span>2018-08-01</span></li>
+                    <li><a href="#" class="notice_text">미국교사 연수단 학교방문</a> <span>2018-07-27</span></li>
+                    <li><a href="#" class="notice_text">7월 나라사랑콘서트 행사진행</a>  <span>2018-07-16</span></li>
+                    <li><a href="#" class="notice_text">[게임캐릭터디자인공모전] 1차 온라인 실기 공모전 합격자 발표</a>  <span>2018-07-13</span></li>
+                    <li><a href="#" class="notice_text">2018학년도 7월 수업방법개선 도우미 강사 채용 공고</a><span>2018-06-22</span></li>
+                    <li><a href="#" class="notice_text">2018 학교생활기록부 관련 설문조사 참여 홍보안내</a>  <span>2018-06-14</span></li>
+                    <li><a href="#" class="notice_text">제7회 서울디지텍고등학교 게임캐릭터 디자인</a> <span>2018-04-04</span></li>
+                </ul>
+            </article>
+            <article class="notice">
+                <h3 class="notice_title">가정통신문</h3>
+                <ul>
+                    <li><a href="#" class="notice_text">2018학년도 3/4분기 가정통신문</a> <span> 2018-07-17</span> </li>
+                    <li><a href="#" class="notice_text">2018년도 상반기 프로그램 운영 만족도 조사 실시반 시행 안내</a> <span>2018-07-16 </span> </li>
+                    <li><a href="#" class="notice_text">자녀사랑하기 5호</a> <span> 2018-07-13</span> </li>
+                    <li><a href="#" class="notice_text">교육여행비 학생만족도 및 정산내역서</a> <span> 2018-07-06</span> </li>
+                    <li><a href="#" class="notice_text">여름철 물놀이 안전요령(교육청)</a> <span>2018-07-03 </span> </li>
+                    <li><a href="#" class="notice_text">2018년 서울디지텍고등학교 게임 잼</a> <span> 2018-07-03</span> </li>
+                    <li><a href="#" class="notice_text">2018년 7,8월 급식 안내 가정통신문</a> <span> 2018-06-29</span> </li>
+                </ul>
+            </article>
+
+            <article class="contents_menu">
+                <h3 class="title">이달의일정</h3>
+                <ul>
+                    <li><a href="#">여름방학</a>   2018/07/23 ~ 2018/08/16</li>
+                    <li><a href="#"> </a></li>
+                    <li><a href="#"> </a></li>
+                    <li><a href="#"> </a></li>
+                    <li><a href="#"> </a></li>
+                    <li><a href="#"> </a></li>
+                    <li><a href="#"> </a></li>
+                    <li><a href="#"> </a></li>
+                </ul>
+            </article>
+
+            <article class="contents_menu" id="contents_two">
+                <h3 class="title">급식</h3>
+                <img src="img/Mod/contents_img.jpg" alt="급식"><a href="#"></a>
+            </article>
+
+            <article class="contents_menu" id="contents_three">
+                <a href="https://www.youtube.com/watch?v=CcSvkr1A9fo"><img src="img/Mod/contents_img1.jpg" alt="수상레저"></a>
+            </article>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_head">
+        <div class="w80">
+                <p class="footer-menu">
+                    <a href="#">법적고지</a>
+                    <a href="#">개인정보취급방침</a>
+                    <a href="#">개인정보처리방침</a>
+                </p>
+            </div>
+        </div>
+            <div class="footer_body">
+                <div class="w80">
+                    <p>[04346]서울 용산구로12길 27(이태원동, 서울디지텍고등학교)</p>
+                    <p>대표전화) 02 - 798 - 3641 ~ 3 팩스) 02 -794 -0822</p>
+                    <p>copyright © 2018 min.suk all right reserved.</p>
+                </div>
+            </div>
+    </footer>
+</div>
+</body>
+</html>

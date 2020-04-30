@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85701dc1-b977-46ad-a30d-e6ce2e44e39c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="401501639">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="914" />
+          <entry key="html" value="287" />
+          <entry key="js" value="786" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="914" />
+          <entry key="HTML" value="287" />
+          <entry key="JavaScript" value="786" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;3c7f04ee-fd1c-403c-84e7-e5eec46e5e88&gt;/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="44" column="80" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="30" column="130" selection-start-line="30" selection-start-column="130" selection-end-line="30" selection-end-column="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\/\* tag setting\*\/\n\*\{margin\:0\; padding\:0\; box\-sizing\:border\-box\;\}\nul li\{list\-style\: none\;\}\na\{text\-decoration\: none\;\}\nhtml body\{width\: 100\%\; height\: 100\%\;\}\n\n\.container\{width\: 1200px\; margin\:0 auto\;\}\n\.wrap\{width\: 100\%\; margin\:0 auto\;\}\n\n    \/\* header \*\/\n\.header\{ width\: 100\%\; height\: 150px\;\}\n\.header_head\{width\: 100\%\; height\: 50px\;  background\: \#7a0200\;\}\n\.header_body\{width\: 100\%\; height\: 100px\; background\: \#f9f9f9\; border\-bottom\: 1px solid \#e1e1e1\;\}\n\n\.gnb\{ display\: flex\; justify\-content\: center\; text\-align\: center\; \}\n\.gnb\&gt;li\{width\: 150px\; height\: 100px\; \}\n\.gnb\&gt;li\&gt;a\{line\-height\: 100px\; color\: \#acbab0\; font\-size\:25px\; font\-weight\:bold\; \}\n\.gnb\&gt;li\:hover\{background\: \#f2f2f2\; \}\n\.mega_box\{width\: 100\%\; position\:absolute\; left\:0\; height\: 350px\; background\:white\;border\-bottom\: 2px solid \#E1E1E1\;\}\n\.sub_box\{ width\: 35\%\; height\: 350px\; float\:left\;background\: rgba\(189\, 4\, 0\, 0\.8\)\;\}\n\.sub_box\&gt;div\{width\: 50\%\; float\:right\; height\: 350px\; \}\n\.sub_box\&gt;div\&gt;span\{color\:white\; font\-size\:22px\; font\-weight\: bold\; text\-align\:center\; height\: 350px\; width\: 100\%\; line\-height\: 100px\; display\: block\;\}\n\.slide\{width\: 100\%\; height\: 600px\; background\: red</find>
+      <find>\/\* tag setting\*\/\n\*\{margin\:0\; padding\:0\; box\-sizing\:border\-box\;\}\nul li\{list\-style\: none\;\}\na\{text\-decoration\: none\;\}\nhtml body\{width\: 100\%\; height\: 100\%\;\}\n\n\.container\{width\: 1200px\; margin\:0 auto\;\}\n\.wrap\{width\: 100\%\; margin\:0 auto\;\}\n\n    \/\* header \*\/\n\.header\{ width\: 100\%\; height\: 150px\;\}\n\.header_head\{width\: 100\%\; height\: 50px\;  background\: \#7a0200\;\}\n\.header_body\{width\: 100\%\; height\: 100px\; background\: \#f9f9f9\; border\-bottom\: 1px solid \#e1e1e1\;\}\n\n\.gnb\{ display\: flex\; justify\-content\: center\; text\-align\: center\; \}\n\.gnb\&gt;li\{width\: 150px\; height\: 100px\; \}\n\.gnb\&gt;li\&gt;a\{line\-height\: 100px\; color\: \#acbab0\; font\-size\:25px\; font\-weight\:bold\; \}\n\.gnb\&gt;li\:hover\{background\: \#f2f2f2\; \}\n\.mega_box\{width\: 100\%\; position\:absolute\; left\:0\; height\: 350px\; background\:white\;border\-bottom\: 2px solid \#E1E1E1\;\}\n\.sub_box\{ width\: 35\%\; height\: 350px\; float\:left\;background\: rgba\(189\, 4\, 0\, 0\.8\)\;\}\n\.sub_box\&gt;div\{width\: 50\%\; float\:right\; height\: 350px\; \}\n\.sub_box\&gt;div\&gt;span\{color\:white\; font\-size\:22px\; font\-weight\: bold\; text\-align\:center\; height\: 350px\; width\: 100\%\; line\-height\: 100px\; display\: block\;\}\n\.slide\{width\: 100\%\; height\: 600px\; background\: red\;\}</find>
+      <find>`</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Mod.css" />
+        <option value="$PROJECT_DIR$/common.css" />
+        <option value="$PROJECT_DIR$/common.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="&lt;2ecfe168-5469-45a9-b010-75a412bfa2c3&gt;/common.css" />
+        <option value="&lt;2ecfe168-5469-45a9-b010-75a412bfa2c3&gt;/css/common.css" />
+        <option value="&lt;2ecfe168-5469-45a9-b010-75a412bfa2c3&gt;/index.html" />
+        <option value="$PROJECT_DIR$/css/common.css" />
+        <option value="&lt;3c7f04ee-fd1c-403c-84e7-e5eec46e5e88&gt;/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="339" />
+    <option name="y" value="299" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2차 메가 드롭다운" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2차 메가 드롭다운" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2차 메가 드롭다운" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2차 메가 드롭다운" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2차 메가 드롭다운" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2차 메가 드롭다운" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="J:/Web Design/Mod/사이트 만들기/2. Mod 과제" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="K:\연습\2차 메가 드롭다운\js" />
+      <recent name="K:\연습\2차 메가 드롭다운\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85701dc1-b977-46ad-a30d-e6ce2e44e39c" name="Default" comment="" />
+      <created>1537432038237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537432038237</updated>
+      <workItem from="1537432039472" duration="1645000" />
+      <workItem from="1537439376058" duration="2298000" />
+      <workItem from="1537452678726" duration="11000" />
+      <workItem from="1537452696580" duration="5256000" />
+      <workItem from="1537515595004" duration="1409000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10619000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" anchor="right" id="Remote Host" order="0" visible="true" weight="0.24375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15989584" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="0" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32943678" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="143" column="46" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="46" />
+          <folding>
+            <element signature="n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#nav#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#nav#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#nav#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="144" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#nav#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#nav#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#nav#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="130" selection-start-line="30" selection-start-column="130" selection-end-line="30" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

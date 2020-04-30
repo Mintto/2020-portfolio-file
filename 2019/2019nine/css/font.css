@@ -1,0 +1,33 @@
+@font-face {
+    font-family:'SDnfxGothicNeoaUniTTF-gBd';
+    src: url('../fonts/sandoll_ghthic_neo/SDnfxGothicNeoaUniTTF-gBd.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('../fonts/sandoll_ghthic_neo/SDnfxGothicNeoaUniTTF-gBd.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/sandoll_ghthic_neo/SDnfxGothicNeoaUniTTF-gBd.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+    font-family:'Ciutadella-Bold';
+    src: url('../fonts/EMT-Ciutadella/Ciutadella-Bold.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('../fonts/EMT-Ciutadella/Ciutadella-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/EMT-Ciutadella/Ciutadella-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family:'Ciutadella-BoldItalic';
+    src: url('../fonts/EMT-Ciutadella/Ciutadella-BoldItalic.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('../fonts/EMT-Ciutadella/Ciutadella-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/EMT-Ciutadella/Ciutadella-BoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+    font-family:'NotoSansCJKjp-Bold';
+    src: url('../fonts/Noto_Sans_CJK_JP/NotoSansCJKjp-Bold.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('../fonts/Noto_Sans_CJK_JP/NotoSansCJKjp-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Noto_Sans_CJK_JP/NotoSansCJKjp-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+    font-family:'NotoSansCJK-Bold';
+    src: url('../fonts/Noto_Sans_CJK_SC/NotoSansCJK-Bold.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('../fonts/Noto_Sans_CJK_SC/NotoSansCJK-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Noto_Sans_CJK_SC/NotoSansCJK-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
